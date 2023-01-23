@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -21,6 +21,11 @@ function App() {
       <p>below headaer</p>
       <h1>sdsdfds</h1>
       <h2>this is heading 2</h2>
+      <h1>this is heading 1</h1>
+      <h2>this is heading 2</h2>
+      <h1>this is heading 1</h1>
+      <h2>this is heading 2</h2>
+
     </div>
   );
 }

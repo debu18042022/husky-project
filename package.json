@@ -20,11 +20,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx validate-branch-name"
+      "pre-commit": "npx validate-branch-name",
+      "pre-psuh": "npx validate-branch-name"
     }
   },
   "validate-branch-name": {
-    "pattern": "^(master|main|develop){1}$|^(add|update|fix|hotfix|release)\/.+$",
+    "pattern": "^(master|main|develop){1}$|^(add|update|fix|hotfix|release)/.+$",
     "errorMsg": "invalid branch name"
   },
   "eslintConfig": {
