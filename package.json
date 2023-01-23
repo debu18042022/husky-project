@@ -20,7 +20,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx validate-branch-name"
+      "pre-commit": "npx validate-branch-name",
+      "pre-push": "npx validate-branch-name"
     }
   },
   "validate-branch-name": {
