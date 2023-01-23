@@ -20,7 +20,7 @@ function App() {
       </header>
       <p>below headaer</p>
       <h1>sdsdfds</h1>
-      <h2>this is heading 2</h2>
+      {/* <h2>this is heading 2</h2> */}
     </div>
   );
 }
